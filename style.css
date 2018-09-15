@@ -1,0 +1,35 @@
+body{
+  background-color: #C2BB9C;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 30px;
+}
+
+.introduction{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bruce_logo{
+  transition: all 1s;
+}
+
+.bruce_logo:hover{
+  transform: scale(1.1);
+}
+
+.display-4{
+    font-family: 'East Sea Dokdo', cursive;
+    color: #E15151;
+}
+
+.lead{
+  font-family: 'East Sea Dokdo', cursive;
+  color: #E15151;
+}
+
+.btn-danger{
+  font-family: 'East Sea Dokdo', cursive;
+}
