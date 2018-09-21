@@ -4,6 +4,30 @@ body{
   font-size: 30px;
 }
 
+.row{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+.row span{
+  max-width: 400px;
+  margin: auto;
+}
+
+.row img{
+  width: 250px;
+  height: 200px;
+  margin: 0px;
+  padding: 3px;
+  transition: all 1s;
+}
+
+.row img:hover{
+  transform: scale(1.1);
+}
+
 .introduction{
   display: flex;
   flex-flow: column;
