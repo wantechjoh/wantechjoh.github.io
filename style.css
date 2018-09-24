@@ -17,6 +17,7 @@ body{
 }
 
 .row img{
+  border-radius: 25px;
   width: 250px;
   height: 200px;
   margin: 5x;
