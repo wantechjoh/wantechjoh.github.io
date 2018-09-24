@@ -47,10 +47,6 @@ body{
   transform: scale(1.1);
 }
 
-.youtubevid{
-  color: white;
-}
-
 .display-4{
     font-family: 'East Sea Dokdo', cursive;
     color: #E15151;
@@ -86,7 +82,27 @@ body{
   word-spacing: 40px;
 }
 
-
 #micro{
   word-spacing: 4px;
+}
+
+.projectheader{
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+}
+
+.comingsoon{
+  position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
