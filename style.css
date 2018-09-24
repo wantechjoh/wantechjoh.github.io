@@ -63,13 +63,13 @@ body{
 }
 
 .aboutme{
-    font-family: 'Bangers', cursive;
+    font-family: 'Anton', sans-serif;
     font-size: 25px;
     text-align: center;
     padding: 30px;
     letter-spacing: 1px;
     line-height: 50px;
-    color: #FFF647;
+    color: white;
 }
 
 .brucelogo2{
