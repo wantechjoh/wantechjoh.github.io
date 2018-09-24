@@ -19,9 +19,12 @@ body{
 .row img{
   width: 250px;
   height: 200px;
-  margin: 0px;
+  margin: 5x;
   padding: 3px;
   transition: all 1s;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
 }
 
 .row img:hover{
@@ -56,4 +59,29 @@ body{
 
 .btn-danger{
   font-family: 'East Sea Dokdo', cursive;
+}
+
+.aboutme{
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #FFF647;
+}
+
+.brucelogo2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.skills{
+  word-spacing: 40px;
+}
+
+#micro{
+  word-spacing: 4px;
 }
